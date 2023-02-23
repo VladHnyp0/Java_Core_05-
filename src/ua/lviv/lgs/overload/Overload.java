@@ -14,6 +14,13 @@ public class Overload {
         this(a, b);
         this.c = c;
     }
+
+    @Override
+    public String toString() {
+        return "Overload{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
+    }
 }
-
-
